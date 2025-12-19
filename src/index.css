@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes hexMove {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-80px);
+  }
+}
+
+.animate-hexagon {
+  animation: hexMove 40s linear infinite;
+}
